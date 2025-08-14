@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Silveira dos Santos - Promoção de Vendas</title>
+    <meta name="description" content="Empresa especializada em promoção de vendas, oferecendo soluções profissionais para alavancar seus negócios.">
+    <meta name="keywords" content="promoção de vendas, marketing, soluções comerciais, CNAE 73.19-0-02">
+    <meta name="author" content="Roberto Silveira dos Santos">
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {"50": "#f8fafc", "100": "#f1f5f9", "200": "#e2e8f0", "300": "#cbd5e1", "400": "#94a3b8", "500": "#64748b", "600": "#475569", "700": "#334155", "800": "#1e293b", "900": "#0f172a"},
+                        accent: {"50": "#ecfdf5", "100": "#d1fae5", "200": "#a7f3d0", "300": "#6ee7b7", "400": "#34d399", "500": "#10b981", "600": "#059669", "700": "#047857", "800": "#065f46", "900": "#064e3b"}
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(241,245,249,0.95) 0%, rgba(226,232,240,0.95) 100%);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-bold text-gray-800">ROBERTO SILVEIRA DOS SANTOS</h1>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#inicio" class="text-gray-600 hover:text-accent-600 transition-colors font-medium">Início</a></li>
+                        <li><a href="#sobre" class="text-gray-600 hover:text-accent-600 transition-colors font-medium">Sobre Nós</a></li>
+                        <li><a href="#servicos" class="text-gray-600 hover:text-accent-600 transition-colors font-medium">Serviços</a></li>
+                        <li><a href="#contato" class="text-gray-600 hover:text-accent-600 transition-colors font-medium">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="md:hidden text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white shadow-lg">
+        <div class="container mx-auto px-4 py-2">
+            <ul class="space-y-2 py-2">
+                <li><a href="#inicio" class="block py-2 text-gray-600 hover:text-accent-600 transition-colors">Início</a></li>
+                <li><a href="#sobre" class="block py-2 text-gray-600 hover:text-accent-600 transition-colors">Sobre Nós</a></li>
+                <li><a href="#servicos" class="block py-2 text-gray-600 hover:text-accent-600 transition-colors">Serviços</a></li>
+                <li><a href="#contato" class="block py-2 text-gray-600 hover:text-accent-600 transition-colors">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <section id="inicio" class="hero-gradient">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Soluções Profissionais em Promoção de Vendas</h2>
+                    <p class="text-lg text-gray-600 mb-6">Estratégias eficientes para alavancar seus resultados comerciais e aumentar sua presença no mercado.</p>
+                    <a href="#contato" class="inline-block bg-accent-600 hover:bg-accent-700 text-white font-medium py-2 px-6 rounded-md transition-colors">Fale Conosco</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://picsum.photos/800/500?random=1" alt="Profissionais discutindo estratégias de vendas" class="w-full rounded-lg shadow-md" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Sobre Nós</h2>
+                <div class="w-20 h-1 bg-accent-600 mx-auto"></div>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-gray-600 mb-6">A <strong>Roberto Silveira dos Santos</strong> é uma empresa especializada em promoção de vendas, registrada sob o CNPJ 33.822.136/0001-36, com sede em Suzano - SP.</p>
+                <p class="text-gray-600 mb-6">Nossa missão é oferecer soluções estratégicas e eficientes para empresas que desejam ampliar seu alcance no mercado, aumentar suas vendas e fortalecer sua marca.</p>
+                <p class="text-gray-600">Com uma abordagem profissional e focada em resultados, trabalhamos para desenvolver campanhas e estratégias personalizadas que atendam às necessidades específicas de cada cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Nossos Serviços</h2>
+                <div class="w-20 h-1 bg-accent-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Promoção de Vendas</h3>
+                    <p class="text-gray-600">Desenvolvemos estratégias personalizadas para aumentar suas vendas e melhorar seu desempenho comercial.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Estratégias Comerciais</h3>
+                    <p class="text-gray-600">Planejamento e execução de ações estratégicas para potencializar seus resultados no mercado.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-accent-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Consultoria Especializada</h3>
+                    <p class="text-gray-600">Análise e recomendações para otimizar seus processos comerciais e melhorar seus indicadores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Contato</h2>
+                <div class="w-20 h-1 bg-accent-600 mx-auto"></div>
+            </div>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Informações de Contato</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-accent-600 mr-3 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-gray-600">Rua Carlos Rodrigues de Faria, nº 60, Casa 03</p>
+                                <p class="text-gray-600">Vila Amorim, Suzano – SP</p>
+                                <p class="text-gray-600">CEP 08610-110</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="text-accent-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-600">[Telefone]</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="text-accent-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-600">[E-mail]</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="text-accent-600 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-600">CNPJ: 33.822.136/0001-36</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Envie uma Mensagem</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nome</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent-500 focus:border-accent-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-mail</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent-500 focus:border-accent-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Mensagem</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-accent-500 focus:border-accent-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-accent-600 hover:bg-accent-700 text-white font-medium py-2 px-6 rounded-md transition-colors">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-lg font-semibold text-white mb-4">ROBERTO SILVEIRA DOS SANTOS</h3>
+                    <p class="mb-4">Empresa especializada em promoção de vendas (CNAE 73.19-0-02), oferecendo soluções profissionais para alavancar seus negócios.</p>
+                    <p>CNPJ: 33.822.136/0001-36</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="hover:text-white transition-colors">Início</a></li>
+                        <li><a href="#sobre" class="hover:text-white transition-colors">Sobre Nós</a></li>
+                        <li><a href="#servicos" class="hover:text-white transition-colors">Serviços</a></li>
+                        <li><a href="#contato" class="hover:text-white transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Documentos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition-colors">Política de Privacidade</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-sm text-center">
+                <p>&copy; <span id="currentYear"></span> Roberto Silveira dos Santos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('button[class*="md:hidden"]').addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobileMenu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Form submission handling
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+                this.reset();
+            });
+        }
+    </script>
+</body>
+</html>
